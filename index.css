@@ -1,0 +1,17 @@
+h1 {
+    color:#FCA311;
+    font-weight: 700;
+    font-size: 4rem;
+    position: absolute;
+    top: 1.5em;
+    left: 1.5em;
+    line-height: 1.5em;
+}
+
+.container {
+    width: 60%;
+    height: 60vh;
+    margin: auto auto;
+    background-color: #14213D;
+    position: relative;
+}
