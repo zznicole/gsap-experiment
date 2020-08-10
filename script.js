@@ -31,3 +31,33 @@ gsap.to(".rubberband", {
     
     stagger: 0.3,
 });
+
+gsap.from(".watersplash", {
+    duration: 20,
+    opacity: 0,
+})
+
+gsap.to(".waterdrop1", {
+    duration: 3, 
+    x: 150,
+    y: -150,
+    rotation: 90,
+    opacity:0,
+})
+
+
+
+gsap.to(".waterdrop2", {
+    duration: 2, 
+    x: -150,
+    y: -150,
+    rotation: 90,
+    opacity:0,
+})
+
+gsap.to(".waterdrop3", {
+    duration: 2, 
+    y: 300,
+    rotation: 360,
+    opacity:0,
+})

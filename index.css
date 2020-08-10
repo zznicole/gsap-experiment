@@ -3,12 +3,12 @@ body {
     margin: 0;
 }
 h1 {
-    color:#F03613;
+    
     font-weight: 700;
     font-size: 4rem;
     position: absolute;
-    top: 2.3em;
-    left: 2em;
+    top: 2em;
+    left: 3em;
     line-height: 1.5em;
     border: 0 0 1 0 solid #F03613;
 }
@@ -37,7 +37,7 @@ h1 {
     
 }
 .rubberband2 {
-    color: #27B46E;
+    color: #F03613;
 }
 
 /* .rectangle {
@@ -57,3 +57,42 @@ h1 {
     height: 30%;
     margin: auto auto;
 }
+
+/* .waterdrop {
+    position: absolute;
+    bottom: 100px;
+    right: 100px;
+
+} */
+
+.watersplash {
+    width: 60%;
+    position: absolute;
+    bottom: 23px;
+    left: 413px;
+}
+
+.waterdrop1 {
+    color: rgb(0, 183, 255);
+    font-size: 1rem;
+    position: absolute;
+    top: 160px;
+    left: 195px;
+}
+
+.waterdrop2 {
+    color: rgb(0, 183, 255);
+    font-size: 2rem;
+    position: absolute;
+    top: 160px;
+    left: 195px;
+}
+
+.waterdrop3 {
+    color: rgb(0, 183, 255);
+    font-size: 5rem;
+    position: absolute;
+    top: 160px;
+    left: 195px;
+}
+
