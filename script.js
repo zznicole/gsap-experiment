@@ -1,43 +1,25 @@
-// let heroBg = new TimelineMax({repeat:-1}); 
-// gsap.to(".container", {
-//     duration: 40, 
-//     rotation: 360,
-//     ease: "elastic",
-//     backgroundPosition: "-2247px 0px" 
-// });
+let tl = gsap.timeline();
 
-
-// gsap.from(".rubberband", {
-//     duration: 6, 
-//     opacity: 0,
-//     background: "#560563",
-//     borderRadius: "20%",
-//     border: "5px solid white",
-//     padding: ".4",
-//     });
-
-gsap.from(".rubberband", {
-    duration: 2, 
+tl.from(".rubberband", {
+    duration: 1, 
     opacity: 0,
     stagger: 0.3
-    });
-
-gsap.to(".rubberband", {
-    duration: 2, 
-    // borderBottomStyle:"solid",
-    // borderBottomColor:"#F03613",
-    backgroundColor: "#EDC02C",
-    // opacity: 0.8,
-    
-    stagger: 0.3,
 });
 
-gsap.from(".watersplash", {
-    duration: 20,
+tl.to(".rubberband", {
+    duration: 1, 
+    backgroundColor: "#EDC02C",
+    stagger: 0.2,
+});
+
+tl.to(".glasswater", {
+    duration: 2,
+    y: -20,
     opacity: 0,
+    ease: "bounce",
 })
 
-gsap.to(".waterdrop1", {
+tl.to(".waterdrop1", {
     duration: 4, 
     x: 150,
     y: -150,
@@ -45,9 +27,7 @@ gsap.to(".waterdrop1", {
     opacity:0,
 })
 
-
-
-gsap.to(".waterdrop2", {
+tl.to(".waterdrop2", {
     duration: 3, 
     x: -150,
     y: -150,
@@ -55,14 +35,25 @@ gsap.to(".waterdrop2", {
     opacity:0,
 })
 
-gsap.to(".waterdrop3", {
+tl.to(".waterdrop3", {
     duration: 3, 
     y: 300,
     rotation: 360,
     opacity:0,
 })
 
-gsap.to(".glasswater", {
-    duration: 4,
-    opacity: 0
+
+gsap.from(".watersplash", {
+   
+    opacity: 0,
 })
+
+tl.to(".watersplash", {
+    duration: 5,
+    delay: 5,
+    opacity: 0.5,
+})
+
+
+
+

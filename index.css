@@ -10,16 +10,15 @@ h1 {
     top: 2em;
     left: 3em;
     line-height: 1.5em;
-    border: 0 0 1 0 solid #F03613;
 }
 
-/* .rubberband:hover {
+.rubberband:hover {
     display: inline-block;
     margin: 0 0.5rem;
   
     animation: bounce; 
     animation-duration: 1.5s; 
-} */
+}
 
 .container {
     max-width: 60%;
@@ -40,17 +39,6 @@ h1 {
     color: #F03613;
 }
 
-/* .rectangle {
-   width: 100px;
-   height: 50px;
-   color:red;
-   background-color: blue;
-   display: inline-block;
-    margin: 0 0.5rem;
-  
-    animation: bounce; 
-    animation-duration: 2s;
-} */
 
 .circleContainer {
     width: 60%;
@@ -58,12 +46,6 @@ h1 {
     margin: auto auto;
 }
 
-/* .waterdrop {
-    position: absolute;
-    bottom: 100px;
-    right: 100px;
-
-} */
 
 .watersplash {
     width: 60%;
@@ -72,7 +54,20 @@ h1 {
     left: 345px;
 }
 
-
+.topU {
+    width: 3em;
+    height: auto;
+    position: absolute;
+    top: 190px;
+    left: 280px; 
+    z-index: 1;
+    font-weight: 700;
+    font-size: 4rem;
+    position: absolute;
+    top: 2em;
+    left: 3em;
+    line-height: 1.5em;
+}
 
 .glasswater {
     width: 3em;
@@ -87,7 +82,7 @@ h1 {
     font-size: 1rem;
     position: absolute;
     top: 160px;
-    left: 195px;
+    left: 270px;
 }
 
 .waterdrop2 {
@@ -95,14 +90,13 @@ h1 {
     font-size: 2rem;
     position: absolute;
     top: 160px;
-    left: 195px;
+    left: 270px;
 }
-
 .waterdrop3 {
     color: rgb(0, 183, 255);
     font-size: 5rem;
     position: absolute;
     top: 160px;
-    left: 195px;
+    left: 270px;
 }
 
