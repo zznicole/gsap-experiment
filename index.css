@@ -16,7 +16,7 @@ h1 {
     display: inline-block;
     margin: 0 0.5rem;
   
-    animation: bounce; 
+    animation: rubberband; 
     animation-duration: 1.5s; 
 }
 
@@ -32,7 +32,7 @@ h1 {
 
 .rubberband {
     padding: 0 .8rem;
-   
+    opacity: 0;
     
 }
 .rubberband2 {
@@ -49,33 +49,60 @@ h1 {
 
 .watersplash {
     width: 60%;
+    opacity: 0;
     position: absolute;
     bottom: 57px;
     left: 345px;
 }
 
 .topU {
+    color: rgb(0, 174, 255);
     width: 3em;
     height: auto;
-    position: absolute;
-    top: 190px;
-    left: 280px; 
     z-index: 1;
     font-weight: 700;
     font-size: 4rem;
     position: absolute;
-    top: 2em;
-    left: 3em;
-    line-height: 1.5em;
+    top: 128px;
+    left: 280px;
+    opacity: 0;
 }
 
-.glasswater {
+.topO {
+    color:  #F03613;
+    width: 3em;
+    height: auto;
+    z-index: 1;
+    font-weight: 700;
+    font-size: 4rem;
+    position: absolute;
+    bottom: 124px;
+    left: 313px;
+    opacity: 0;
+}
+
+.topN {
+    color:  #F03613;
+    width: 3em;
+    height: auto;
+    z-index: 1;
+    font-weight: 700;
+    font-size: 4rem;
+    position: absolute;
+    bottom: 124px;
+    left: 405px;
+    opacity: 0;
+}
+
+
+/* .glasswater {
     width: 3em;
     height: auto;
     position: absolute;
     top: 190px;
     left: 280px; 
-}
+    opacity: 0.4;
+} */
 
 .waterdrop1 {
     color: rgb(0, 183, 255);
@@ -83,6 +110,7 @@ h1 {
     position: absolute;
     top: 160px;
     left: 270px;
+    opacity: 0;
 }
 
 .waterdrop2 {
@@ -91,6 +119,7 @@ h1 {
     position: absolute;
     top: 160px;
     left: 270px;
+    opacity: 0;
 }
 .waterdrop3 {
     color: rgb(0, 183, 255);
@@ -98,5 +127,6 @@ h1 {
     position: absolute;
     top: 160px;
     left: 270px;
+    opacity: 0;
 }
 
