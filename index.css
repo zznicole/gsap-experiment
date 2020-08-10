@@ -68,8 +68,18 @@ h1 {
 .watersplash {
     width: 60%;
     position: absolute;
-    bottom: 23px;
-    left: 413px;
+    bottom: 57px;
+    left: 345px;
+}
+
+
+
+.glasswater {
+    width: 3em;
+    height: auto;
+    position: absolute;
+    top: 190px;
+    left: 280px; 
 }
 
 .waterdrop1 {

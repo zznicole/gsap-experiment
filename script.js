@@ -38,7 +38,7 @@ gsap.from(".watersplash", {
 })
 
 gsap.to(".waterdrop1", {
-    duration: 3, 
+    duration: 4, 
     x: 150,
     y: -150,
     rotation: 90,
@@ -48,16 +48,21 @@ gsap.to(".waterdrop1", {
 
 
 gsap.to(".waterdrop2", {
-    duration: 2, 
+    duration: 3, 
     x: -150,
     y: -150,
-    rotation: 90,
+    rotation: -90,
     opacity:0,
 })
 
 gsap.to(".waterdrop3", {
-    duration: 2, 
+    duration: 3, 
     y: 300,
     rotation: 360,
     opacity:0,
+})
+
+gsap.to(".glasswater", {
+    duration: 4,
+    opacity: 0
 })
