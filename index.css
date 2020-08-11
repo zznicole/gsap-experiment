@@ -160,6 +160,12 @@ h1 {
     opacity: 0;
 }
 
+.tinyRed {
+    position: absolute;
+    top: 1rem;
+    right: 1.5rem;
+    color:  #F03613;
+}
 
 /* .glasswater {
     width: 3em;
