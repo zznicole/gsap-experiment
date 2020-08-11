@@ -37,6 +37,7 @@ h1 {
 }
 .rubberband2 {
     color: #F03613;
+    opacity: 0;
 }
 
 
@@ -55,6 +56,19 @@ h1 {
     left: 345px;
 }
 
+.topS {
+    color: rgb(0, 174, 255);
+    width: 3em;
+    height: auto;
+    z-index: 1;
+    font-weight: 700;
+    font-size: 4rem;
+    position: absolute;
+    top: 128px;
+    left: 201px;
+    opacity: 0;
+}
+
 .topU {
     color: rgb(0, 174, 255);
     width: 3em;
@@ -64,7 +78,59 @@ h1 {
     font-size: 4rem;
     position: absolute;
     top: 128px;
-    left: 280px;
+    left: 279px;
+    opacity: 0;
+}
+
+.topM1 {
+    color: rgb(0, 174, 255);
+    width: 3em;
+    height: auto;
+    z-index: 1;
+    font-weight: 700;
+    font-size: 4rem;
+    position: absolute;
+    top: 128px;
+    left: 367px;
+    opacity: 0;
+}
+
+.topM2 {
+    color: rgb(0, 174, 255);
+    width: 3em;
+    height: auto;
+    z-index: 1;
+    font-weight: 700;
+    font-size: 4rem;
+    position: absolute;
+    top: 128px;
+    left: 468px;
+    opacity: 0;
+}
+
+.topE {
+    color: rgb(0, 174, 255);
+    width: 3em;
+    height: auto;
+    z-index: 1;
+    font-weight: 700;
+    font-size: 4rem;
+    position: absolute;
+    top: 128px;
+    right: 278px;
+    opacity: 0;
+}
+
+.topR {
+    color: rgb(0, 174, 255);
+    width: 3em;
+    height: auto;
+    z-index: 1;
+    font-weight: 700;
+    font-size: 4rem;
+    position: absolute;
+    top: 128px;
+    right: 193px;
     opacity: 0;
 }
 
@@ -77,7 +143,7 @@ h1 {
     font-size: 4rem;
     position: absolute;
     bottom: 124px;
-    left: 313px;
+    left: 315px;
     opacity: 0;
 }
 
